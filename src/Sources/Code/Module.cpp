@@ -51,7 +51,7 @@ std::vector<std::string> lVarList;
 
 // Data struct to read messages coming from clients
 struct StringValue {
-	char value[255];
+	char value[1024];
 };
 
 // Enum for notification groups
