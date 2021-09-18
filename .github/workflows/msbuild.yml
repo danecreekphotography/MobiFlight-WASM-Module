@@ -4,7 +4,7 @@ on: [push]
 
 env:
   # Path to the solution file relative to the root of the project.
-  SOLUTION_FILE_PATH: src/Sources/Code
+  SOLUTION_FILE_PATH: src/Sources/Code/StandaloneModule.vcxproj
   BUILD_CONFIGURATION: Release
   PLATFORM: MSFS
 
